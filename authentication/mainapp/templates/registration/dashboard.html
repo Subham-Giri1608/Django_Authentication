@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+    <h1>Dashboard</h1>
+    Hello {{ request.user.username }}
+    <p>Welcome to your Profile</p>
+    <p>Password: {{ request.user.password }}</p>
+    <p>First Name: {{ request.user.first_name }}</p>
+    <p>Last Name: {{ request.user.last_name }}</p>
+    <p>Phone Number: {{ request.user.phone_number }}</p>
+    <p>Email: {{ request.user.email }}</p>
+    <p>Current City: {{ request.user.current_city }}</p>
+    <p>School: {{ request.user.school }}</p>
+    <p>College: {{ request.user.college }}</p>
+
+    <a href="{% url 'logout' %}">Logout</a>
+{% endblock %}

@@ -1,0 +1,241 @@
+@import url(//fonts.googleapis.com/css?family=Muli);
+
+body
+{
+    margin:0;
+    padding:0;
+    font-family: Helvetica, sans-serif;
+}
+
+p
+{
+    line-height: 1.8;
+}
+
+a
+{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: chocolate;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Muli',sans-serif;
+    font-weight: normal;
+}
+
+h1
+{
+    border-bottom: 1px solid #bbb;
+    padding: 0 0 10px 0;
+    margin: 0 20px 0;
+}
+
+h2
+{
+    margin: 30px 0 20px;
+}
+
+ol
+{
+    line-height: 1.5;
+}
+
+
+#header
+{
+    padding: 10px 100px;
+    font-size: 20px;
+    background: cornflowerblue;
+    color: bisque;
+    border-bottom: 10px solid #e26efd;
+    overflow: auto;
+}
+
+#header .logo
+{
+    font-family: 'Muli',sans-serif;
+    float: left;
+    color: azure;
+    font-size: 28px;
+}
+
+#header ul.menu
+{
+    list-style: none;
+    float: left;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+#header ul.menu li
+{
+    float: left;
+    padding: 4px 10px;
+}
+
+#header ul.menu li.selected a, 
+#header ul.menu li.selected a:hover
+{
+    color: chocolate;
+    font-weight: bold;
+}
+
+#header a
+{
+    color: aliceblue;
+}
+
+#header a:hover
+{
+    color: coral;
+}
+
+#header .user
+{
+    float: right;
+    padding-top: 4px;
+}
+
+#content
+{
+    padding: 30px 100px;
+}
+
+form
+{
+    overflow: auto;
+}
+
+form p
+{
+    width: 100%;
+    overflow: auto;
+}
+
+label
+{
+    float: left;
+    clear: both;
+    color: black;
+    margin-bottom: 4px;
+}
+
+input, 
+textarea
+{
+    clear: both;
+    margin: 0 15px 10px;
+    background: #efefef;
+    border: 0;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+input[type=submit], 
+a.button
+{
+    font-weight: bold;
+    background: aqua;
+    color: antiquewhite;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.errorlist
+{
+    color: red;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+}
+
+.helptext
+{
+    margin: 0 0 20px 0;
+    color: chartreuse;
+    clear: both;
+    float: left;
+    font-size: 13px;
+}
+
+ul.messages
+{
+    margin: 10px 100px;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.messages li.success,
+ul.messages li.warning,
+ul.messages li.error,
+ul.messages li.info
+{
+    margin: 0;
+    padding: 14px 20px;
+    list-style: none;
+    color: aliceblue;
+}
+
+ul.messages li.success
+{
+    background: greenyellow;
+}
+
+ul.messages li.success a
+{
+    color: chartreuse;
+}
+
+ul.messages li.error
+{
+    background: red;
+    color: red;
+}
+
+ul.messages li.error a
+{
+    color: red;
+}
+
+ul.messages li.info
+{
+    background: violet;
+    color: violet;
+}
+
+ul.messages li.info a
+{
+    color: violet;
+}
+
+ul.messages li.warning
+{
+    background: red;
+}
+
+ul.messages li.warning a 
+{
+    color: red;
+}
+
+ul.messages li a.close
+{
+    margin: 0;
+    float: right;
+    opacity: 1;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.login-form
+{
+    float: left;
+}
