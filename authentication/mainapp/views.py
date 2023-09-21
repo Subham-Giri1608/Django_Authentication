@@ -23,7 +23,7 @@ def register(request):
     else:
         user_form = UserRegistrationForm()
         profile_form = UserProfileForm()
-        return redirect('register_done', {'user_form': user_form, 'profile_form': profile_form})
+        return render(request, 'registration/register.html', {'user_form': user_form, 'profile_form': profile_form})
 
 def register_done(request):
     return render(request, 'registration/register_done.html')
